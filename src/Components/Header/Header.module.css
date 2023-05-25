@@ -1,0 +1,21 @@
+.header {
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 45px;
+    height: 93px;
+}
+
+.logo {
+    width: 141px;
+    height: 93px;
+    background-image: url("../../../src/assets/images/header/logo.svg");
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1000px) {
+    .header {
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,11 @@
+.accountPanel{
+    display: flex;
+    justify-content: end;
+    margin-left: 7px;
+}
+
+@media screen and (max-width:950px) {
+    .avatar{
+        display: none;
+    }
+}

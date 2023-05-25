@@ -1,0 +1,10 @@
+.wrapper{
+    width: 96vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.man2 {
+    min-height: 167px;
+}

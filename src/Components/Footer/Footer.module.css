@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #029491;
+    height: 137px;
+    color: #FFFFFF;
+    padding: 0 45px;
+	align-items: center;
+    font-size: 14px;
+}
+
+.logo {
+    width: 141px;
+    height: 137px;
+    background-image: url("../../../src/assets/images/footer/logo.svg");
+    background-repeat: no-repeat;
+}
+
+.info {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.contacts {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer {
+        padding: 0 10px;
+    }
+}

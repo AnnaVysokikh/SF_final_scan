@@ -1,0 +1,37 @@
+.panel {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 33px;
+}
+
+.panel__link {
+    align-self: center;
+    text-decoration: none;
+    color:black;
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.panel__verticalLine{
+    margin: 0 20px;
+}
+
+.panel__button {
+    height: 25px;
+    padding: 0 11px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #7CE3E1;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+    .panel {
+        display: none;
+    }
+}
